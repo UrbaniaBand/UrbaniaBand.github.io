@@ -1,87 +1,84 @@
 <!DOCTYPE html>
-<!-- saved from url=(0051)file:///C:/Users/jmcampbell/Desktop/Help/index.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>
-			Urbania
-		</title>
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="./index_files/bootstrap.min.css">
-		<script src="./index_files/jquery.min.js.download"></script>
-		<script src="./index_files/popper.min.js.download"></script>
-		<script src="./index_files/bootstrap.min.js.download"></script>
-		<meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	  <style>
-		  /* Make the image fully responsive */
-		  .carousel-inner img {
-		  width: 100%;
-		  height: 100%;
-	  }
-	</style>
-	</head>
-	<body background="bg.jpeg">
-		<div class="container-fluid">
-			<h1>Urbania</h1>
-		</div>
-		<div class="row">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <a class="navbar-brand" href="index.html">Urbania.</a>
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="Listen.html">Listen</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="shows.html">Upcoming Shows</a>
-    </li>
-	<li class="nav-item">
-      <a class="nav-link" href="contact.html">Contact Us</a>
-    </li>
-  </ul>
-</nav>
-  </div>
-	<div id="demo" class="carousel slide" data-ride="carousel">
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>
+            Urbania
+        </title>
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-	<li data-target="#demo" data-slide-to="3"></li>
-    <li data-target="#demo" data-slide-to="4"></li>
-	
-  </ul>
-  
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="ub5.jpg" alt="stage1">
-    </div>
-    <div class="carousel-item">
-      <img src="ub3.jpg" alt="stage3">
-    </div>
-	<div class="carousel-item">
-      <img src="ub4.jpg" alt="stage4">
-    </div>
-	<div class="carousel-item">
-      <img src="ub1.jpg" alt="stage5">
-    </div>
-	<div class="carousel-item">
-      <img src="ub6.jpg" alt="stage6">
-    </div>
-  </div>
-  
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
-</body></html>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Required Bootstrap Insert from their documentation site for CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+         <!-- Required Bootstrap Insert from their documentation site for JS Components-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <style>
+
+            /* Make the image fully responsive */
+            .carousel-inner img {
+                width: 100%;
+                height: 100%;
+            }
+            .carousel slide{
+                margin: auto;
+            }
+            body{
+                background-color: #212121; 
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- This is an entire navigation bar! it's only 6 lines and I wrote NO CSS for it!!! -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="index.html">Urbania.</a>
+                <a class="nav-item nav-link" href="Listen.html">Listen</a>
+                <a class="nav-link" href="shows.html">Upcoming Shows</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
+        </nav>
+
+        <!-- This is a indicator list that allows the user to visualize what slide they are on -->
+        <!-- The only CSS here is to fit the images inside the carousel as I would like! -->
+        <div id="cIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#im1" data-slide-to="0" class="active"></li>
+                <li data-target="#im2" data-slide-to="1"></li>
+                <li data-target="#im3" data-slide-to="2"></li>
+                <li data-target="#im4" data-slide-to="3"></li>
+                <li data-target="#im5" data-slide-to="4"></li>
+            </ol>
+
+            <!-- These are the content entires for the carousel. You just need divs with propper tags and attributes, bootstrap does the rest! -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="ub5.jpg" alt="stage1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="ub3.jpg" alt="stage3" />
+                </div>
+                <div class="carousel-item">
+                  <img src="ub4.jpg" alt="stage4" />
+                </div>
+                <div class="carousel-item">
+                  <img src="ub1.jpg" alt="stage5" />
+                </div>
+                <div class="carousel-item">
+                  <img src="ub6.jpg" alt="stage6" />
+                </div>
+            </div>
+
+            <!-- Bootstrap lets you add controls quickly! This one adds a previous arrow --> 
+            <a class="carousel-control-prev" href="#cIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#cIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </body>
+</html>
